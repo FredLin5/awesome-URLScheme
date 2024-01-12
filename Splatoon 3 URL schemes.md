@@ -1,6 +1,8 @@
 # Splatoon 3 URL schemes
 
-Starts with ` com.nintendo.znca://znca/game/4834290508791808?p=<url encoded path> `, ' : 'indicates that it's a parameter.
+Tested on [Nintendo Switch Online](https://apps.apple.com/app/id1234806557).
+
+Starts with ` com.nintendo.znca://znca/game/4834290508791808?p=<url encoded path> `, `:` indicates that it's a parameter.
 
 | Path                                                 | Notes                             |
 |------------------------------------------------------|-----------------------------------|
@@ -19,15 +21,15 @@ Starts with ` com.nintendo.znca://znca/game/4834290508791808?p=<url encoded path
 | /x_ranking/:SeasonID/cl                              | X Rank in Clam Blitz              |
 | /event_match_ranking                                 | Event Challenge                   |
 | /challenge                                           | Wandercrust                       |
-| /challenge/:JourneyID/:ChallengeID [1](## JourneyID) | Specific challenge in Wandercrust |
+| /challenge/:JourneyID/:ChallengeID [1](#JourneyID)   | Specific challenge in Wandercrust |
 | /catalog_record                                      | Catalog                           |
 | /photo_album                                         | Photo Album                       |
 | /tournament                                          | Tournaments Manager               |
 | /weapon_record                                       | Weapon Record                     |
 | /stage_record                                        | Stage Record                      |
 | /fest_record                                         | Splatfest Record                  |
-| /fest_record/ranking/:festID [2](## festID)          | Ranking in specific Splatfest     |
-| /fest_record/voting/:festID [2](## festID)           | Voting in specific Splatfest      |
+| /fest_record/ranking/:festID [2](#festID)            | Ranking in specific Splatfest     |
+| /fest_record/voting/:festID [2](#festID)             | Voting in specific Splatfest      |
 | /coop_record                                         | Salmon Run Record                 |
 | /hero_record                                         | Hero Mode Record                  |
 | /replay                                              | Replays                           |
